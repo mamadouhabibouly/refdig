@@ -1,8 +1,8 @@
-from random import*
-r= randint(0,9)
-a = input("enter un nombre entre 0 et 9")
+#programme nombres aleatoires
+ import random
+ nbre_alea=random.randint(0,9)
+a =input("entrer un nombre compri entre 0 et 9 ")
 if r ==a:
-	print("bravo")
+	  print("bravo")
 else
-	print("desole vous avez echoue") 
-    while 
+      print("desole vous avez echoue")
