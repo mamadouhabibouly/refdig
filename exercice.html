@@ -1,0 +1,72 @@
+<! Doctype html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon exercice HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="exo.js"></script>
+</head>
+
+<body>
+    <div id="general">
+        <div id="header">
+            <div id="menu">
+                <div class="menuin"><a href="">Accueil</a></div>
+                <div class="menuin"><a href="">Qui Sommes-nous ?</a></div>
+                <div class="menuin"><a href="">Nos Services</a></div>
+                <div class="menuin"><a href="">Nos Réalisation</a></div>
+                <div class="menuin"><a href="">Blog</a></div>
+                <div class="menuin"><a href="">Contac</a></div>
+            </div>
+        </div>
+        <!-- Le conteneur est composé de 'nave','section' et 'aside' -->
+        <div id="conteneur">
+            <!-- Le 'nave' englobe le menu de gmail -->
+            <div class="modulegauche">
+                <div id="blochaut">
+                    <div class="toggle_btn" onclick="toggleblochaut()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="logo_gmail">
+                        <img class="imagegmail" src="gmail.png">
+                    </div>
+                </div>
+                <div id="modulederoulant">
+                    <ul>
+                        <li>Boite de récéption</li>
+                        <li>Messages suivis</li>
+                        <li>En attente</li>
+                        <li>Messages envoyés</li>
+                        <li>Brouillons</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modulemilieu">
+                <div id="entete_modulemilieu"></div>
+                <div id="centre_modulemilieu">
+                    <div id="on_off">
+                        <button onclick="bulb()">Allumer</button>
+                        <img id="lampes" src="eteindre.png">
+                        <button onclick="bulbeteindre()">Eteindre</button>
+                    </div>
+                </div>
+                <div id="section_footer"></div>
+            </div>
+            <div class="aside"></div>
+        </div>
+        <div id="footer">
+            <div class="menubas"><a href="">Accueil</a></div>
+            <div class="menubas"><a href="">Qui Sommes-nous ?</a></div>
+            <div class="menubas"><a href="">Nos Services</a></div>
+            <div class="menubas"><a href="">Nos Réalisation</a></div>
+            <div class="menubas"><a href="">Blog</a></div>
+            <div class="menubas"><a href="">Contac</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
